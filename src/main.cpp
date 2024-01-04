@@ -61,8 +61,6 @@ void loop() {
   display.print(F("Temp: "));
   display.print(temperature);
   display.println(F(" C"));
-  Serial.print(temperature);
-  Serial.print(" C");
 
 
   display.print(F("Pressure: "));
